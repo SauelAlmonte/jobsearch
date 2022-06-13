@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "tw": "npx tailwindcss -i ./src/tailwind.css -o ./dist/styles.css",
+    "dev": "live-server .",
+    "dev2": "npx tailwindcss -i ./src/tailwind.css -o ./dist/styles.css --watch",
     "prod": "npx tailwindcss -i ./src/tailwind.css -o ./dist/styles.css --minify",
-    "dev": "live-server ."
+    "tw": "npx tailwindcss -i ./src/tailwind.css -o ./dist/styles.css"
   },
   "repository": {
     "type": "git",
