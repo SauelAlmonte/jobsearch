@@ -745,6 +745,18 @@ select {
   display: none;
 }
 
+.h-96 {
+  height: 24rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
 .items-center {
   align-items: center;
 }
@@ -811,16 +823,6 @@ select {
 .px-20 {
   padding-left: 5rem;
   padding-right: 5rem;
-}
-
-.px-16 {
-  padding-left: 4rem;
-  padding-right: 4rem;
-}
-
-.py-32 {
-  padding-top: 8rem;
-  padding-bottom: 8rem;
 }
 
 .text-3xl {
